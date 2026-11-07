@@ -1,7 +1,7 @@
 {
   "name": "nuxt-cmpkit",
   "version": "0.1.1",
-  "description": "Nuxt module for CMPKit, a consent management platform (CMP): GDPR cookie banner and cookie consent with one public key, SSR-safe script tag and a cookie settings link.",
+  "description": "CMPKit consent management platform (CMP): GDPR cookie banner and cookie consent with one public key, a server-rendered script and a cookie settings link.",
   "license": "MIT",
   "type": "module",
   "keywords": [
