@@ -1,15 +1,44 @@
 {
   "name": "nuxt-cmpkit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Nuxt module for CMPKit, a consent management platform (CMP): GDPR cookie banner and cookie consent with one public key, SSR-safe script tag and a cookie settings link.",
   "license": "MIT",
   "type": "module",
-  "keywords": ["nuxt", "nuxt-module", "cmpkit", "cmp", "consent-management-platform", "consent", "cookie-banner", "cookie-consent", "gdpr", "ccpa", "eprivacy", "privacy"],
-  "repository": { "type": "git", "url": "git+https://github.com/kendrick-k/nuxt-cmpkit.git" },
-  "exports": { ".": { "types": "./dist/types.d.mts", "import": "./dist/module.mjs" } },
+  "keywords": [
+    "nuxt",
+    "nuxt-module",
+    "cmpkit",
+    "cmp",
+    "consent-management-platform",
+    "consent",
+    "cookie-banner",
+    "cookie-consent",
+    "gdpr",
+    "ccpa",
+    "eprivacy",
+    "privacy"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kendrick-k/nuxt-cmpkit.git"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/types.d.mts",
+      "import": "./dist/module.mjs"
+    }
+  },
   "main": "./dist/module.mjs",
-  "typesVersions": { "*": { ".": ["./dist/types.d.mts"] } },
-  "files": ["dist"],
+  "typesVersions": {
+    "*": {
+      ".": [
+        "./dist/types.d.mts"
+      ]
+    }
+  },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "prepack": "nuxt-module-build build",
     "dev": "nuxi dev playground",
@@ -17,12 +46,16 @@
     "dev:prepare": "nuxt-module-build build --stub && nuxt-module-build prepare && nuxi prepare playground",
     "test": "node --experimental-strip-types --test test/*.test.ts"
   },
-  "dependencies": { "@nuxt/kit": "^4.0.0" },
+  "dependencies": {
+    "@nuxt/kit": "^4.0.0"
+  },
   "devDependencies": {
     "@nuxt/module-builder": "^1.0.0",
     "nuxt": "^4.1.0",
     "typescript": "^5.7.0",
     "vue-tsc": "^3.3.14"
   },
-  "peerDependencies": { "nuxt": "^3.15.0 || ^4.0.0" }
+  "peerDependencies": {
+    "nuxt": "^3.15.0 || ^4.0.0"
+  }
 }
