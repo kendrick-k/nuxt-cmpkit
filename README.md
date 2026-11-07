@@ -5,6 +5,8 @@
 [![License: MIT](https://img.shields.io/npm/l/nuxt-cmpkit?color=2f6f3e)](https://github.com/kendrick-k/nuxt-cmpkit/blob/main/LICENSE)
 [![Nuxt](https://img.shields.io/badge/Nuxt-3%20%7C%204-00DC82?logo=nuxt&logoColor=white)](https://nuxt.com)
 
+**English** · [Français](README.fr.md) · [Español](README.es.md)
+
 Nuxt module for [CMPKit](https://cmpkit.com), a **consent management platform (CMP)**: add a GDPR / ePrivacy **cookie banner** and cookie consent to your Nuxt 3 or Nuxt 4 site with one public key, plus a "Cookie settings" link for your footer.
 
 - Cookie banner and consent management: categories, vendors and texts are configured in the CMPKit dashboard, not in code.
