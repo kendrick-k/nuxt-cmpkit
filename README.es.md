@@ -5,7 +5,7 @@
 [![License: MIT](https://img.shields.io/npm/l/nuxt-cmpkit?color=2f6f3e)](https://github.com/kendrick-k/nuxt-cmpkit/blob/main/LICENSE)
 [![Nuxt](https://img.shields.io/badge/Nuxt-3%20%7C%204-00DC82?logo=nuxt&logoColor=white)](https://nuxt.com)
 
-[English](README.md) · [Français](README.fr.md) · **Español**
+[English](README.md) · [Français](README.fr.md) · **Español** · [Italiano](README.it.md)
 
 Módulo de Nuxt para [CMPKit](https://cmpkit.com), una **plataforma de gestión del consentimiento (CMP)**: añade un **banner de cookies** conforme al RGPD / ePrivacy y la gestión del consentimiento a tu sitio Nuxt 3 o Nuxt 4 con una sola clave pública, además de un enlace «Configuración de cookies» para el pie de página.
 
